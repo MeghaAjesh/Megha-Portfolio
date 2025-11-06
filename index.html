@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megha Ajesh - Portfolio</title>
+    <!-- BootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Megha Ajesh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <header id="home" class="d-flex align-items-center text-center">
+      <div class="container hero-content">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <img
+              src="images/MeghaProfile.jpeg"
+              alt="Megha Ajesh"
+              class="profile-img mb-3"
+            />
+            <h1 class="display-4 fw-bold">Hi, I'm Megha Ajesh</h1>
+            <p class="lead mb-2">FullStack Developer</p>
+            <p class="mb-4">
+              I design and build efficient, scalable web applications focused on
+              performance and usability.
+            </p>
+            <div class="hero-buttons">
+              <a class="btn btn-light me-2 mb-2" href="#projects"
+                >View Projects</a
+              >
+              <a class="btn btn-outline-light mb-2" href="#contact"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-4 text-center">
+            <img src="images/Me-Formal.jpg" alt="Megha" class="about-img" />
+          </div>
+          <div class="col-lg-8">
+            <h2>About Me</h2>
+            <p class="lead mb-4">
+              I am a B.Tech in Computer Science graduate, currently working as a
+              full-stack developer at a startup. I enjoy building web apps,
+              automating workflows, and learning new technologies.
+            </p>
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <i class="bi bi-mortarboard-fill fs-4 me-3"></i>
+                  <div>
+                    <strong>Education</strong>
+                    <p class="mb-0">B.Tech in Computer Science</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <i class="bi bi-briefcase-fill fs-4 me-3"></i>
+                  <div>
+                    <strong>Experience</strong>
+                    <p class="mb-0">MERN Stack & Full-time Startup</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <i class="bi bi-flag-fill fs-4 me-3"></i>
+                  <div>
+                    <strong>Goals</strong>
+                    <p class="mb-0">
+                      To become a skilled Data Analyst specializing in data
+                      visualization and predictive analytics.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn-custom" href="resume/MeghaNewResume.pdf" download>
+              <i class="bi bi-download me-2"></i>Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-padding">
+      <div class="container">
+        <h2 class="text-center mb-5">My Skills</h2>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card skill-card shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-code-slash fs-1 mb-3"></i>
+                <h5 class="card-title">Frontend</h5>
+                <p class="card-text text-muted small">
+                  HTML · CSS · Bootstrap · React
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card skill-card shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-server fs-1 mb-3"></i>
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text text-muted small">Node.js · Express</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card skill-card shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-database fs-1 mb-3"></i>
+                <h5 class="card-title">Database</h5>
+                <p class="card-text text-muted small">MongoDB · MySQL</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card skill-card shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-tools fs-1 mb-3"></i>
+                <h5 class="card-title">Tools</h5>
+                <p class="card-text text-muted small">Git · VS Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card shadow">
+              
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Metamatrix Shopify App</h5>
+                <p class="card-text">
+                     Developed a bulk editor app for Shopify using Node.js and React, enabling merchants to update multiple
+              products, prices, and inventory efficiently. Improved workflow and reduced manual effort significantly.
+                </p>
+                <p class="mt-auto small text-muted mb-3">
+                  <strong>Tech:</strong>  React · Node.js · Shopify API
+                </p>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card shadow">
+              
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Magic Flip</h5>
+                <p class="card-text">
+                  Created an interactive card-flipping game using React, focusing on smooth animations and responsive design
+              for an engaging user experience.
+                </p>
+                <p class="mt-auto small text-muted mb-3">
+                  <strong>Tech:</strong>  React · CSS · JavaScript
+                </p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card shadow">
+             
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Media Player</h5>
+                <p class="card-text">
+                 Designed and built a responsive media player with React.js, implementing CRUD operations for managing
+              user data and integrating Axios for API communication.
+                </p>
+                <p class="mt-auto small text-muted mb-3">
+                  <strong>Tech:</strong>  React · Node.js · Axios
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card shadow">
+             
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">QuantumCalc
+</h5>
+                <p class="card-text">
+                 Built a neon-themed calculator web app using HTML, CSS, Bootstrap, and JavaScript with smooth UI and
+              intuitive design.
+                </p>
+                <p class="mt-auto small text-muted mb-3">
+                  <strong>Tech:</strong>  HTML · CSS · Bootstrap · JS
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card shadow">
+             
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Online Banking System
+</h5>
+                <p class="card-text">
+                Created a simple online banking platform using HTML, CSS, and JavaScript with secure deposit, withdrawal,
+              and password validation features.
+                </p>
+                <p class="mt-auto small text-muted mb-3">
+                  <strong>Tech:</strong>  HTML · CSS · Bootstrap · JS
+                </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-padding">
+      <div class="container">
+        <h2 class="text-center mb-5">Education & Experience</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card education-card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h5 class="mb-4">
+                  <i class="bi bi-mortarboard me-2"></i>Education
+                </h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0">
+                    <strong>B.Tech in Computer Science</strong>
+                    <p class="mb-0 small">
+                      College of Engineering, Kidangoor — 2020 to 2024
+                    </p>
+                    <p>CGPA — 7.78 </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card education-card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h5 class="mb-4">
+                  <i class="bi bi-briefcase me-2"></i>Experience
+                </h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0">
+                    <strong>FullStack Developer</strong>
+                    <p class="mb-0 small">
+                      ZenMeraki Private Solutions - December 2024 to present
+                    </p>
+                  </li>
+                  <li class="list-group-item px-0 border-0">
+                    <strong>MERN Stack Developer Intern</strong>
+                    <p class="mb-0 small">
+                      Luminar TechnoLab — July2024 - December
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <h2 class="text-center mb-4">Get in Touch</h2>
+        <p class="text-center mb-5">
+          I'd love to collaborate or discuss opportunities. Reach out via email
+          or connect on social media.
+        </p>
+
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <div class="contact-info">
+              <h5 class="mb-3">
+                <i class="bi bi-envelope-fill me-2"></i>Email
+              </h5>
+              <p class="mb-4">
+                <a href="mailto:iammegha02@gmail.com">iammegha02@gmail.com</a>
+              </p>
+
+              <h5 class="mb-3"><i class="bi bi-share-fill me-2"></i>Social</h5>
+              <div class="d-flex gap-3 mb-4">
+                <a
+                  href="https://github.com/MeghaAjesh"
+                  class="btn btn-outline-light"
+                  target="_blank"
+                >
+                  <i class="bi bi-github me-2"></i>GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/meghaajesh/"
+                  class="btn btn-outline-light"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin me-2"></i>LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="card contact-card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <form
+                  action="mailto:megha@example.com"
+                  method="post"
+                  enctype="text/plain"
+                >
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      id="name"
+                      class="form-control"
+                      type="text"
+                      name="Name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      id="email"
+                      class="form-control"
+                      type="email"
+                      name="Email"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      name="Message"
+                      rows="5"
+                      placeholder="Hi Megha — I want to..."
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary-custom w-100">
+                    <i class="bi bi-send-fill me-2"></i>Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center">
+      <div class="container">
+        <div class="mb-3">
+          <a class="me-4" href="#home">Home</a>
+          <a class="me-4" href="#about">About</a>
+          <a class="me-4" href="#skills">Skills</a>
+          <a class="me-4" href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <small>© 2025 Megha Ajesh — All rights reserved.</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
